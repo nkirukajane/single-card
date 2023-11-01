@@ -1,0 +1,153 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "karla";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+h2, h4, p {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 100px 30px;
+    
+
+}
+
+.main-div{
+    width: 80%;
+    padding: 30px;
+    margin-top: 345px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 14px 1px #00000024;
+    flex-direction: column;
+}
+
+.up-sec h3 {
+    color: hsl(179, 62%, 43%) ;
+}
+
+.up-sec h4 {
+    color: hsl(71, 73%, 54%);
+}
+.up-sec p {
+    color: hsl(200, 12%, 38%);
+    margin-top: 20px;
+    margin-bottom: 60px;
+    line-height: 1.3;
+}
+
+.main-div2 {
+    margin: -30px;
+    color: white;
+    
+}
+
+.down-sec1 {
+    background-color:hsl(179, 62%, 43%);
+    padding: 30px;
+    
+    line-height: 1.6;
+}
+.down-sec1 p{
+    color: hsl(0, 0%, 100%);
+}
+
+.span1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.down-sec2 {
+    background-color: hsl(185, 51%, 65%);
+    padding: 30px;
+    color: white;
+    
+}
+.down-sec2 li {
+    color: white;
+    list-style: none;
+    opacity: 0.7;
+    
+}
+
+.btn-sec {
+    background-color:   hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 15px;
+    min-width: 100%;
+    margin-top: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-sec:hover{
+    background-color: hsl(120, 39%, 56%) ;
+    transform: scale(1.02);
+}
+
+.date {
+    position: relative;
+    top: -3;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-left: 5px;
+}
+
+.attribution {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+    
+.attribution a {
+    color: black;
+}
+
+@media screen and (max-width:768px){
+    footer {
+        
+        margin-top:500px ;
+        
+    }
+}
+    
+    
+
+
+@media screen and (min-width:768px){
+    .main-div{
+        width: 60%;
+        display: flex;
+        
+    }
+    .main-div2{
+        display: flex;
+    }
+    .down-sec1{
+        width: 50%;
+    }
+    .down-sec2{
+        width: 50%;
+    }
+    
+}
